@@ -1,0 +1,337 @@
+[
+    {
+        "product_id": "laptop001",
+        "product_title": "MacBook Pro 16-inch",
+        "product_image": "macbook_pro_16.jpg",
+        "category": "Laptop",
+        "price": 2499.99,
+        "description": "High-performance laptop with Apple's M1 Pro chip.",
+        "Specification": [
+            "Apple M1 Pro Chip",
+            "16GB RAM",
+            "512GB SSD",
+            "16-inch Liquid Retina XDR Display",
+            "Up to 21-hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "laptop002",
+        "product_title": "Dell XPS 13",
+        "product_image": "dell_xps_13.jpg",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "Compact and powerful laptop with stunning InfinityEdge display.",
+        "Specification": [
+            "Intel Core i7 11th Gen",
+            "16GB RAM",
+            "512GB SSD",
+            "13.4-inch FHD+ Display",
+            "Up to 14-hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "laptop003",
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "lenovo_thinkpad_x1_carbon.jpg",
+        "category": "Laptop",
+        "price": 1599.99,
+        "description": "Durable and lightweight business laptop with excellent battery life.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "14-inch FHD Display",
+            "Up to 18-hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "laptop004",
+        "product_title": "HP Spectre x360",
+        "product_image": "hp_spectre_x360.jpg",
+        "category": "Laptop",
+        "price": 1399.99,
+        "description": "Convertible laptop with vibrant display and stylus support.",
+        "Specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "13.5-inch OLED Display",
+            "Up to 17-hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "laptop005",
+        "product_title": "Asus ROG Zephyrus G14",
+        "product_image": "asus_rog_zephyrus_g14.jpg",
+        "category": "Laptop",
+        "price": 1499.99,
+        "description": "Compact gaming laptop with high performance and great battery life.",
+        "Specification": [
+            "AMD Ryzen 9",
+            "16GB RAM",
+            "1TB SSD",
+            "14-inch QHD Display",
+            "NVIDIA RTX 3060"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "watch001",
+        "product_title": "Apple Watch Series 9",
+        "product_image": "apple_watch_series_9.jpg",
+        "category": "Watch",
+        "price": 429.99,
+        "description": "Advanced health and fitness tracking smartwatch.",
+        "Specification": [
+            "Blood Oxygen Sensor",
+            "ECG and Heart Rate Monitoring",
+            "GPS + Cellular",
+            "18-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "watch002",
+        "product_title": "Garmin Fenix 7",
+        "product_image": "garmin_fenix_7.jpg",
+        "category": "Watch",
+        "price": 699.99,
+        "description": "Rugged smartwatch designed for outdoor enthusiasts.",
+        "Specification": [
+            "GPS Navigation",
+            "Heart Rate and Pulse Oximeter",
+            "Solar Charging",
+            "14-day Battery Life",
+            "Waterproof"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "watch003",
+        "product_title": "Fitbit Sense 2",
+        "product_image": "fitbit_sense_2.jpg",
+        "category": "Watch",
+        "price": 299.99,
+        "description": "Health-focused smartwatch with stress management and sleep tracking.",
+        "Specification": [
+            "Heart Rate Monitor",
+            "EDA Sensor",
+            "Sleep Tracking",
+            "6-day Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "watch004",
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "galaxy_watch_6.jpg",
+        "category": "Watch",
+        "price": 399.99,
+        "description": "Smartwatch with health monitoring and seamless Android compatibility.",
+        "Specification": [
+            "Heart Rate & ECG",
+            "GPS + LTE",
+            "Rotating Bezel",
+            "40-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "watch005",
+        "product_title": "Casio Pro Trek PRW-3500",
+        "product_image": "casio_pro_trek_prw_3500.jpg",
+        "category": "Watch",
+        "price": 299.99,
+        "description": "Solar-powered outdoor watch with multiple sensors.",
+        "Specification": [
+            "Triple Sensor (Compass, Altimeter, Barometer)",
+            "Solar Power",
+            "200m Water Resistant",
+            "Backlit Display"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "earphones001",
+        "product_title": "Apple AirPods Pro 2nd Gen",
+        "product_image": "airpods_pro_2.jpg",
+        "category": "Earphones",
+        "price": 249.99,
+        "description": "Wireless earbuds with active noise cancellation and spatial audio.",
+        "Specification": [
+            "Active Noise Cancellation",
+            "Spatial Audio",
+            "MagSafe Charging",
+            "6-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "earphones002",
+        "product_title": "Jabra Elite 7 Pro",
+        "product_image": "jabra_elite_7_pro.jpg",
+        "category": "Earphones",
+        "price": 199.99,
+        "description": "Wireless earbuds with active noise cancellation and customizable sound.",
+        "Specification": [
+            "Adjustable ANC",
+            "Bluetooth 5.2",
+            "8-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "earphones003",
+        "product_title": "Bose QuietComfort Earbuds II",
+        "product_image": "bose_quietcomfort_earbuds_ii.jpg",
+        "category": "Earphones",
+        "price": 299.99,
+        "description": "Industry-leading noise cancellation with high-fidelity audio.",
+        "Specification": [
+            "Adjustable Noise Cancellation",
+            "Bluetooth 5.3",
+            "6-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "earphones004",
+        "product_title": "Beats Fit Pro",
+        "product_image": "beats_fit_pro.jpg",
+        "category": "Earphones",
+        "price": 199.99,
+        "description": "True wireless earbuds with wingtip design for a secure fit.",
+        "Specification": [
+            "Active Noise Cancellation",
+            "Spatial Audio",
+            "Up to 6-hour Battery Life",
+            "Sweat & Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "earphones005",
+        "product_title": "Sennheiser CX Plus",
+        "product_image": "sennheiser_cx_plus.jpg",
+        "category": "Earphones",
+        "price": 129.99,
+        "description": "High-quality sound with customizable equalizer and noise cancelation.",
+        "Specification": [
+            "Noise Cancellation",
+            "Bluetooth 5.2",
+            "8-hour Battery Life",
+            "Water Resistant"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "phone001",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "galaxy_s23_ultra.jpg",
+        "category": "Phone",
+        "price": 1199.99,
+        "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
+        "Specification": [
+            "6.8-inch AMOLED Display",
+            "256GB Storage",
+            "200MP Camera",
+            "5000mAh Battery",
+            "5G Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "phone002",
+        "product_title": "iPhone 15 Pro Max",
+        "product_image": "iphone_15_pro_max.jpg",
+        "category": "Phone",
+        "price": 1299.99,
+        "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
+        "Specification": [
+            "6.7-inch Super Retina XDR Display",
+            "256GB Storage",
+            "Triple Camera System",
+            "4300mAh Battery",
+            "5G Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "phone003",
+        "product_title": "Google Pixel 8 Pro",
+        "product_image": "pixel_8_pro.jpg",
+        "category": "Phone",
+        "price": 1099.99,
+        "description": "Pixel phone with top-notch camera and AI-driven features.",
+        "Specification": [
+            "6.7-inch OLED Display",
+            "128GB Storage",
+            "Triple Rear Camera",
+            "5000mAh Battery",
+            "5G Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "phone004",
+        "product_title": "OnePlus 11",
+        "product_image": "oneplus_11.jpg",
+        "category": "Phone",
+        "price": 749.99,
+        "description": "High-performance smartphone with smooth display and fast charging.",
+        "Specification": [
+            "6.7-inch AMOLED Display",
+            "128GB Storage",
+            "Triple Camera",
+            "5000mAh Battery",
+            "5G Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "phone005",
+        "product_title": "Sony Xperia 1 IV",
+        "product_image": "sony_xperia_1_iv.jpg",
+        "category": "Phone",
+        "price": 1399.99,
+        "description": "A premium phone with a focus on media creation.",
+        "Specification": [
+            "6.5-inch 4K OLED Display",
+            "256GB Storage",
+            "Quad Camera Setup",
+            "5000mAh Battery",
+            "5G Connectivity"
+        ],
+        "availability": true,
+        "rating": 4.5
+    }
+]
