@@ -2,7 +2,7 @@
     {
         "product_id": "laptop001",
         "product_title": "MacBook Pro 16-inch",
-        "product_image": "macbook_pro_16.jpg",
+        "product_image": "https://www.custommacbd.com/cdn/shop/files/mbp16-spaceblack-Custom-Mac-BD_1200x1200.jpg?v=1700117634",
         "category": "Laptop",
         "price": 2499.99,
         "description": "High-performance laptop with Apple's M1 Pro chip.",
@@ -19,7 +19,7 @@
     {
         "product_id": "laptop002",
         "product_title": "Dell XPS 13",
-        "product_image": "dell_xps_13.jpg",
+        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2023/06/Dell-XPS-13-Plus-Laptop-2023-i7-Price-in-Bangladesh-MC-Solution-BD-1200x900.webp",
         "category": "Laptop",
         "price": 1299.99,
         "description": "Compact and powerful laptop with stunning InfinityEdge display.",
@@ -36,7 +36,7 @@
     {
         "product_id": "laptop003",
         "product_title": "Lenovo ThinkPad X1 Carbon",
-        "product_image": "lenovo_thinkpad_x1_carbon.jpg",
+        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2022/03/Lenovo-ThinkPad-X1-Carbon-Gen-9-MC-Solution-BD-1200x900.webp",
         "category": "Laptop",
         "price": 1599.99,
         "description": "Durable and lightweight business laptop with excellent battery life.",
@@ -53,7 +53,7 @@
     {
         "product_id": "laptop004",
         "product_title": "HP Spectre x360",
-        "product_image": "hp_spectre_x360.jpg",
+        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2021/11/hp-spectre-x360-16-price-in-bangladesh-1200x900.webp",
         "category": "Laptop",
         "price": 1399.99,
         "description": "Convertible laptop with vibrant display and stylus support.",
@@ -70,7 +70,7 @@
     {
         "product_id": "laptop005",
         "product_title": "Asus ROG Zephyrus G14",
-        "product_image": "asus_rog_zephyrus_g14.jpg",
+        "product_image": "https://dlcdnwebimgs.asus.com/gain/7767BD74-8865-4D61-96F7-94D6412E3E46",
         "category": "Laptop",
         "price": 1499.99,
         "description": "Compact gaming laptop with high performance and great battery life.",
@@ -87,7 +87,7 @@
     {
         "product_id": "watch001",
         "product_title": "Apple Watch Series 9",
-        "product_image": "apple_watch_series_9.jpg",
+        "product_image": "https://www.custommacbd.com/cdn/shop/files/Watch-s9-starlight-Custom-Mac-BD.jpg?v=1696082496",
         "category": "Watch",
         "price": 429.99,
         "description": "Advanced health and fitness tracking smartwatch.",
@@ -104,7 +104,7 @@
     {
         "product_id": "watch002",
         "product_title": "Garmin Fenix 7",
-        "product_image": "garmin_fenix_7.jpg",
+        "product_image": "https://ryans.com/storage/products/main/garmin-fenix-7-sapphire-solar-edition-black-dlc-11665816357.webp",
         "category": "Watch",
         "price": 699.99,
         "description": "Rugged smartwatch designed for outdoor enthusiasts.",
@@ -121,7 +121,7 @@
     {
         "product_id": "watch003",
         "product_title": "Fitbit Sense 2",
-        "product_image": "fitbit_sense_2.jpg",
+        "product_image": "https://m.media-amazon.com/images/I/61c1QC4lF-L._AC_SL1500_.jpg",
         "category": "Watch",
         "price": 299.99,
         "description": "Health-focused smartwatch with stress management and sleep tracking.",
@@ -138,7 +138,7 @@
     {
         "product_id": "watch004",
         "product_title": "Samsung Galaxy Watch 6",
-        "product_image": "galaxy_watch_6.jpg",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Watch6-Gold-5232.jpg",
         "category": "Watch",
         "price": 399.99,
         "description": "Smartwatch with health monitoring and seamless Android compatibility.",
@@ -155,7 +155,7 @@
     {
         "product_id": "watch005",
         "product_title": "Casio Pro Trek PRW-3500",
-        "product_image": "casio_pro_trek_prw_3500.jpg",
+        "product_image": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/timepiece/product/watch/P/PR/PRW/PRW-3500-1/assets/PRW-3500-1_01.png.transform/main-visual-sp/image.png",
         "category": "Watch",
         "price": 299.99,
         "description": "Solar-powered outdoor watch with multiple sensors.",
@@ -171,7 +171,7 @@
     {
         "product_id": "earphones001",
         "product_title": "Apple AirPods Pro 2nd Gen",
-        "product_image": "airpods_pro_2.jpg",
+        "product_image": "https://executiveample.com/wp-content/uploads/2023/11/Apple-AirPods-Pro-2nd-generation-with-MagSafe-Charging-Case-USB%E2%80%91C5.webp",
         "category": "Earphones",
         "price": 249.99,
         "description": "Wireless earbuds with active noise cancellation and spatial audio.",
@@ -188,7 +188,7 @@
     {
         "product_id": "earphones002",
         "product_title": "Jabra Elite 7 Pro",
-        "product_image": "jabra_elite_7_pro.jpg",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfhsSpY2Nz_KjqGxs79Yx93-y6GdGicJnzg&s",
         "category": "Earphones",
         "price": 199.99,
         "description": "Wireless earbuds with active noise cancellation and customizable sound.",
@@ -204,7 +204,7 @@
     {
         "product_id": "earphones003",
         "product_title": "Bose QuietComfort Earbuds II",
-        "product_image": "bose_quietcomfort_earbuds_ii.jpg",
+        "product_image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
         "category": "Earphones",
         "price": 299.99,
         "description": "Industry-leading noise cancellation with high-fidelity audio.",
@@ -220,7 +220,7 @@
     {
         "product_id": "earphones004",
         "product_title": "Beats Fit Pro",
-        "product_image": "beats_fit_pro.jpg",
+        "product_image": "https://www.jbhifi.com.au/cdn/shop/products/580274-Product-0-I-637776808958718058.jpg?v=1642045046",
         "category": "Earphones",
         "price": 199.99,
         "description": "True wireless earbuds with wingtip design for a secure fit.",
@@ -236,7 +236,7 @@
     {
         "product_id": "earphones005",
         "product_title": "Sennheiser CX Plus",
-        "product_image": "sennheiser_cx_plus.jpg",
+        "product_image": "https://gadget99.com.bd/wp-content/uploads/2022/12/Sennheiser-CX-Plus-True-Wireless-Black.jpg.webp",
         "category": "Earphones",
         "price": 129.99,
         "description": "High-quality sound with customizable equalizer and noise cancelation.",
@@ -252,7 +252,7 @@
     {
         "product_id": "phone001",
         "product_title": "Samsung Galaxy S23 Ultra",
-        "product_image": "galaxy_s23_ultra.jpg",
+        "product_image": "https://diamu.com.bd/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-5G-Phantom-Black.jpg",
         "category": "Phone",
         "price": 1199.99,
         "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
@@ -269,7 +269,7 @@
     {
         "product_id": "phone002",
         "product_title": "iPhone 15 Pro Max",
-        "product_image": "iphone_15_pro_max.jpg",
+        "product_image": "https://www.custommacbd.com/cdn/shop/files/iphone-15-pro-blacktitanium-Custom-Mac-BD_d134ea58-0165-44d3-b1c8-2b6a13f8dbf8.jpg?v=1694689058",
         "category": "Phone",
         "price": 1299.99,
         "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
@@ -286,7 +286,7 @@
     {
         "product_id": "phone003",
         "product_title": "Google Pixel 8 Pro",
-        "product_image": "pixel_8_pro.jpg",
+        "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
         "category": "Phone",
         "price": 1099.99,
         "description": "Pixel phone with top-notch camera and AI-driven features.",
@@ -303,7 +303,7 @@
     {
         "product_id": "phone004",
         "product_title": "OnePlus 11",
-        "product_image": "oneplus_11.jpg",
+        "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/na/oneplus-11/specs/green-img.png",
         "category": "Phone",
         "price": 749.99,
         "description": "High-performance smartphone with smooth display and fast charging.",
@@ -320,7 +320,7 @@
     {
         "product_id": "phone005",
         "product_title": "Sony Xperia 1 IV",
-        "product_image": "sony_xperia_1_iv.jpg",
+        "product_image": "https://images-cdn.ubuy.co.id/651441b0a7667141c30887c8-sony-xperia-1-iv-5g-smartphone.jpg",
         "category": "Phone",
         "price": 1399.99,
         "description": "A premium phone with a focus on media creation.",
