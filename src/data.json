@@ -7,11 +7,11 @@
         "price": 2499.99,
         "description": "High-performance laptop with Apple's M1 Pro chip.",
         "Specification": [
-            "Apple M1 Pro Chip",
-            "16GB RAM",
-            "512GB SSD",
-            "16-inch Liquid Retina XDR Display",
-            "Up to 21-hour Battery Life"
+            "1. Apple M1 Pro Chip",
+            "2. 16GB RAM",
+            "3. 512GB SSD",
+            "4. 16-inch Liquid Retina XDR Display",
+            "5. Up to 21-hour Battery Life"
         ],
         "availability": true,
         "rating": 4.9
@@ -24,11 +24,11 @@
         "price": 1299.99,
         "description": "Compact and powerful laptop with stunning InfinityEdge display.",
         "Specification": [
-            "Intel Core i7 11th Gen",
-            "16GB RAM",
-            "512GB SSD",
-            "13.4-inch FHD+ Display",
-            "Up to 14-hour Battery Life"
+            "1. Intel Core i7 11th Gen",
+            "2. 16GB RAM",
+            "3. 512GB SSD",
+            "4. 13.4-inch FHD+ Display",
+            "5. Up to 14-hour Battery Life"
         ],
         "availability": true,
         "rating": 4.8
@@ -41,11 +41,11 @@
         "price": 1599.99,
         "description": "Durable and lightweight business laptop with excellent battery life.",
         "Specification": [
-            "Intel Core i7",
-            "16GB RAM",
-            "512GB SSD",
-            "14-inch FHD Display",
-            "Up to 18-hour Battery Life"
+            "1. Intel Core i7",
+            "2. 16GB RAM",
+            "3. 512GB SSD",
+            "4. 14-inch FHD Display",
+            "5. Up to 18-hour Battery Life"
         ],
         "availability": true,
         "rating": 4.7
@@ -58,11 +58,11 @@
         "price": 1399.99,
         "description": "Convertible laptop with vibrant display and stylus support.",
         "Specification": [
-            "Intel Core i7",
-            "16GB RAM",
-            "512GB SSD",
-            "13.5-inch OLED Display",
-            "Up to 17-hour Battery Life"
+            "1. Intel Core i7",
+            "2. 16GB RAM",
+            "3. 512GB SSD",
+            "4. 13.5-inch OLED Display",
+            "5. Up to 17-hour Battery Life"
         ],
         "availability": true,
         "rating": 4.6
@@ -75,11 +75,11 @@
         "price": 1499.99,
         "description": "Compact gaming laptop with high performance and great battery life.",
         "Specification": [
-            "AMD Ryzen 9",
-            "16GB RAM",
-            "1TB SSD",
-            "14-inch QHD Display",
-            "NVIDIA RTX 3060"
+            "1. AMD Ryzen 9",
+            "2. 16GB RAM",
+            "3. 1TB SSD",
+            "4. 14-inch QHD Display",
+            "5. NVIDIA RTX 3060"
         ],
         "availability": true,
         "rating": 4.8
@@ -92,11 +92,11 @@
         "price": 429.99,
         "description": "Advanced health and fitness tracking smartwatch.",
         "Specification": [
-            "Blood Oxygen Sensor",
-            "ECG and Heart Rate Monitoring",
-            "GPS + Cellular",
-            "18-hour Battery Life",
-            "Water Resistant"
+            "1. Blood Oxygen Sensor",
+            "2. ECG and Heart Rate Monitoring",
+            "3. GPS + Cellular",
+            "4. 18-hour Battery Life",
+            "5. Water Resistant"
         ],
         "availability": true,
         "rating": 4.9
@@ -109,11 +109,11 @@
         "price": 699.99,
         "description": "Rugged smartwatch designed for outdoor enthusiasts.",
         "Specification": [
-            "GPS Navigation",
-            "Heart Rate and Pulse Oximeter",
-            "Solar Charging",
-            "14-day Battery Life",
-            "Waterproof"
+            "1. GPS Navigation",
+            "2. Heart Rate and Pulse Oximeter",
+            "3. Solar Charging",
+            "4. 14-day Battery Life",
+            "5. Waterproof"
         ],
         "availability": true,
         "rating": 4.8
@@ -126,11 +126,11 @@
         "price": 299.99,
         "description": "Health-focused smartwatch with stress management and sleep tracking.",
         "Specification": [
-            "Heart Rate Monitor",
-            "EDA Sensor",
-            "Sleep Tracking",
-            "6-day Battery Life",
-            "Water Resistant"
+            "1. Heart Rate Monitor",
+            "2. EDA Sensor",
+            "3. Sleep Tracking",
+            "4. 6-day Battery Life",
+            "5. Water Resistant"
         ],
         "availability": true,
         "rating": 4.5
@@ -143,11 +143,11 @@
         "price": 399.99,
         "description": "Smartwatch with health monitoring and seamless Android compatibility.",
         "Specification": [
-            "Heart Rate & ECG",
-            "GPS + LTE",
-            "Rotating Bezel",
-            "40-hour Battery Life",
-            "Water Resistant"
+            "1. Heart Rate & ECG",
+            "2. GPS + LTE",
+            "3. Rotating Bezel",
+            "4. 40-hour Battery Life",
+            "5. Water Resistant"
         ],
         "availability": true,
         "rating": 4.6
@@ -160,10 +160,10 @@
         "price": 299.99,
         "description": "Solar-powered outdoor watch with multiple sensors.",
         "Specification": [
-            "Triple Sensor (Compass, Altimeter, Barometer)",
-            "Solar Power",
-            "200m Water Resistant",
-            "Backlit Display"
+            "1. Triple Sensor (Compass, Altimeter, Barometer)",
+            "2. Solar Power",
+            "3. 200m Water Resistant",
+            "4. Backlit Display"
         ],
         "availability": true,
         "rating": 4.4
@@ -176,11 +176,11 @@
         "price": 249.99,
         "description": "Wireless earbuds with active noise cancellation and spatial audio.",
         "Specification": [
-            "Active Noise Cancellation",
-            "Spatial Audio",
-            "MagSafe Charging",
-            "6-hour Battery Life",
-            "Water Resistant"
+            "1. Active Noise Cancellation",
+            "2. Spatial Audio",
+            "3. MagSafe Charging",
+            "4. 6-hour Battery Life",
+            "5. Water Resistant"
         ],
         "availability": true,
         "rating": 4.8
@@ -193,10 +193,10 @@
         "price": 199.99,
         "description": "Wireless earbuds with active noise cancellation and customizable sound.",
         "Specification": [
-            "Adjustable ANC",
-            "Bluetooth 5.2",
-            "8-hour Battery Life",
-            "Water Resistant"
+            "1. Adjustable ANC",
+            "2. Bluetooth 5.2",
+            "3. 8-hour Battery Life",
+            "4. Water Resistant"
         ],
         "availability": true,
         "rating": 4.6
@@ -206,13 +206,13 @@
         "product_title": "Bose QuietComfort Earbuds II",
         "product_image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
         "category": "Earphones",
-        "price": 299.99,
-        "description": "Industry-leading noise cancellation with high-fidelity audio.",
+        "price": 279.99,
+        "description": "High-quality wireless earbuds with industry-leading noise cancellation.",
         "Specification": [
-            "Adjustable Noise Cancellation",
-            "Bluetooth 5.3",
-            "6-hour Battery Life",
-            "Water Resistant"
+            "1. Industry-leading ANC",
+            "2. LDAC Support",
+            "3. 8-hour Battery Life",
+            "4. Water Resistant"
         ],
         "availability": true,
         "rating": 4.7
@@ -222,13 +222,13 @@
         "product_title": "Beats Fit Pro",
         "product_image": "https://www.jbhifi.com.au/cdn/shop/products/580274-Product-0-I-637776808958718058.jpg?v=1642045046",
         "category": "Earphones",
-        "price": 199.99,
-        "description": "True wireless earbuds with wingtip design for a secure fit.",
+        "price": 229.99,
+        "description": "Compact earbuds with immersive sound and ANC.",
         "Specification": [
-            "Active Noise Cancellation",
-            "Spatial Audio",
-            "Up to 6-hour Battery Life",
-            "Sweat & Water Resistant"
+            "1. Active Noise Cancellation",
+            "2. 24-bit Hi-Fi Sound",
+            "3. 5-hour Battery Life",
+            "4. Water Resistant"
         ],
         "availability": true,
         "rating": 4.5
@@ -238,100 +238,101 @@
         "product_title": "Sennheiser CX Plus",
         "product_image": "https://gadget99.com.bd/wp-content/uploads/2022/12/Sennheiser-CX-Plus-True-Wireless-Black.jpg.webp",
         "category": "Earphones",
-        "price": 129.99,
-        "description": "High-quality sound with customizable equalizer and noise cancelation.",
+        "price": 299.99,
+        "description": "Premium earbuds with best-in-class noise cancellation.",
         "Specification": [
-            "Noise Cancellation",
-            "Bluetooth 5.2",
-            "8-hour Battery Life",
-            "Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "phone001",
-        "product_title": "Samsung Galaxy S23 Ultra",
-        "product_image": "https://diamu.com.bd/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-5G-Phantom-Black.jpg",
-        "category": "Phone",
-        "price": 1199.99,
-        "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
-        "Specification": [
-            "6.8-inch AMOLED Display",
-            "256GB Storage",
-            "200MP Camera",
-            "5000mAh Battery",
-            "5G Connectivity"
+            "1. Adjustable ANC",
+            "2. 6-hour Battery Life",
+            "3. Water Resistant"
         ],
         "availability": true,
         "rating": 4.9
     },
     {
-        "product_id": "phone002",
-        "product_title": "iPhone 15 Pro Max",
-        "product_image": "https://www.custommacbd.com/cdn/shop/files/iphone-15-pro-blacktitanium-Custom-Mac-BD_d134ea58-0165-44d3-b1c8-2b6a13f8dbf8.jpg?v=1694689058",
-        "category": "Phone",
-        "price": 1299.99,
-        "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
-        "Specification": [
-            "6.7-inch Super Retina XDR Display",
-            "256GB Storage",
-            "Triple Camera System",
-            "4300mAh Battery",
-            "5G Connectivity"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "phone003",
-        "product_title": "Google Pixel 8 Pro",
-        "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
-        "category": "Phone",
-        "price": 1099.99,
-        "description": "Pixel phone with top-notch camera and AI-driven features.",
-        "Specification": [
-            "6.7-inch OLED Display",
-            "128GB Storage",
-            "Triple Rear Camera",
-            "5000mAh Battery",
-            "5G Connectivity"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "phone004",
-        "product_title": "OnePlus 11",
-        "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/na/oneplus-11/specs/green-img.png",
-        "category": "Phone",
-        "price": 749.99,
-        "description": "High-performance smartphone with smooth display and fast charging.",
-        "Specification": [
-            "6.7-inch AMOLED Display",
-            "128GB Storage",
-            "Triple Camera",
-            "5000mAh Battery",
-            "5G Connectivity"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "phone005",
-        "product_title": "Sony Xperia 1 IV",
-        "product_image": "https://images-cdn.ubuy.co.id/651441b0a7667141c30887c8-sony-xperia-1-iv-5g-smartphone.jpg",
-        "category": "Phone",
-        "price": 1399.99,
-        "description": "A premium phone with a focus on media creation.",
-        "Specification": [
-            "6.5-inch 4K OLED Display",
-            "256GB Storage",
-            "Quad Camera Setup",
-            "5000mAh Battery",
-            "5G Connectivity"
-        ],
-        "availability": true,
-        "rating": 4.5
-    }
-]
+            "product_id": "phone001",
+            "product_title": "Samsung Galaxy S23 Ultra",
+            "product_image": "https://diamu.com.bd/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-5G-Phantom-Black.jpg",
+            "category": "Phone",
+            "price": 1199.99,
+            "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
+            "Specification": [
+                "1. 6.8-inch AMOLED Display",
+                "2. 256GB Storage",
+                "3. 200MP Camera",
+                "4. 5000mAh Battery",
+                "5. 5G Connectivity"
+            ],
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "product_id": "phone002",
+            "product_title": "iPhone 15 Pro Max",
+            "product_image": "https://www.custommacbd.com/cdn/shop/files/iphone-15-pro-blacktitanium-Custom-Mac-BD_d134ea58-0165-44d3-b1c8-2b6a13f8dbf8.jpg?v=1694689058",
+            "category": "Phone",
+            "price": 1299.99,
+            "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
+            "Specification": [
+                "1. 6.7-inch Super Retina XDR Display",
+                "2. 256GB Storage",
+                "3. Triple Camera System",
+                "4. 4300mAh Battery",
+                "5. 5G Connectivity"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": "phone003",
+            "product_title": "Google Pixel 8 Pro",
+            "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
+            "category": "Phone",
+            "price": 1099.99,
+            "description": "Pixel phone with top-notch camera and AI-driven features.",
+            "Specification": [
+                "1. 6.7-inch OLED Display",
+                "2. 128GB Storage",
+                "3. Triple Rear Camera",
+                "4. 5000mAh Battery",
+                "5. 5G Connectivity"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": "phone004",
+            "product_title": "OnePlus 11",
+            "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/na/oneplus-11/specs/green-img.png",
+            "category": "Phone",
+            "price": 749.99,
+            "description": "High-performance smartphone with smooth display and fast charging.",
+            "Specification": [
+                "1. 6.7-inch AMOLED Display",
+                "2. 128GB Storage",
+                "3. Triple Camera",
+                "4. 5000mAh Battery",
+                "5. 5G Connectivity"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id": "phone005",
+            "product_title": "Sony Xperia 1 IV",
+            "product_image": "https://images-cdn.ubuy.co.id/651441b0a7667141c30887c8-sony-xperia-1-iv-5g-smartphone.jpg",
+            "category": "Phone",
+            "price": 1399.99,
+            "description": "A premium phone with a focus on media creation.",
+            "Specification": [
+                "1. 6.5-inch 4K OLED Display",
+                "2. 256GB Storage",
+                "3. Quad Camera Setup",
+                "4. 5000mAh Battery",
+                "5. 5G Connectivity"
+            ],
+            "availability": true,
+            "rating": 4.5
+        }
+    ]
+    
+    

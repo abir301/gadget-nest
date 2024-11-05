@@ -1,11 +1,12 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Components/Home.jsx';
 import Homecontent from './Components/Homecontent.jsx';
 import Dashboard from './Components/Dashboard.jsx';
+import Singledata from './Components/Singledata.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,18 @@ const router = createBrowserRouter([
         element: <Homecontent />,
         loader: () => fetch('/src/data.json'),
       },
+      {
+        path: '/product/:product_id',
+        element:<Singledata/>,
+        loader: () => fetch('/src/data.json')
+      },
+      {
+        path: '/:category/product/:product_id',
+        element: <Singledata/>,
+        loader: () => fetch('/src/data.json'),
+      },
+      
+
       {
         path: '/dashboard',
         element: <Dashboard />,
