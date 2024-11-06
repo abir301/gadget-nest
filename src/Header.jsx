@@ -17,8 +17,8 @@ const Header = () => {
                 <NavLink to='/dashboard'>Dashboard</NavLink>
             </div>
             <div className="flex items-center gap-6">
-                <NavLink><IoCartOutline className="size-8 border-2 p-1 rounded-full text-black bg-white" /></NavLink>
-                <NavLink><FaRegHeart className="size-8 border-2 p-1 rounded-full text-black bg-white"/></NavLink>
+                <NavLink><IoCartOutline className="size-10 border-2 p-2 rounded-full text-black bg-white" /></NavLink>
+                <NavLink><FaRegHeart className="size-10 border-2 p-2 rounded-full text-black bg-white"/></NavLink>
             </div>
         </div>
         </section>
