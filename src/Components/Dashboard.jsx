@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import { getCartItems, getWishlistItems } from "..";
+import { Helmet } from "react-helmet";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
     const [cartItems, setCartItems] = useState([])
     const [showModal, setShowModal] = useState(false)
     const [viewPage, setViewPage] = useState(true)
+    const navigate = useNavigate()
     useEffect(() => {
         const items = getCartItems()
         setCartItems(items)
@@ -21,6 +24,11 @@ const Dashboard = () => {
         setCartItems([])
         setShowModal(true)
     }
+    let changeRoute = ()=> {
+        setShowModal(false)
+        navigate(`/`)
+
+    }
 
     let sortByPrice = () => {
         let sortedItems = [...cartItems].sort((a, b) => b.price - a.price)
@@ -31,6 +39,11 @@ const Dashboard = () => {
 
     return (
         <section>
+
+        <Helmet>
+        <title>Dashboard | Gadget Heaven</title>
+        </Helmet>     
+
             <div className="bg-purple-600">
                 <h1 className="text-3xl font-bold text-white text-center w-[900px] mx-auto pt-10">Dashboard</h1>
                 <p className="text-white text-center w-[900px] mx-auto py-4 ">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
@@ -94,8 +107,7 @@ const Dashboard = () => {
                             <img className="py-4 mx-auto" src="/public/images/Group.png" alt="" />
                             <h1 className="text-2xl font-bold mb-4">Payment Successful!</h1>
                             <p className="text-gray-500">Thank you for purchasing!</p>
-                            <p className="text-gray-500 mb-6">Total: {totalCost}</p>
-                            <button onClick={() => setShowModal(false)} className="bg-purple-600 text-white py-2 px-4 rounded-full font-medium">
+                            <button onClick={changeRoute} className="bg-purple-600 text-white py-2 px-4 rounded-full font-medium">
                                 Close
                             </button>
                         </div>

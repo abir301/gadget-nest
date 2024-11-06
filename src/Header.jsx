@@ -12,9 +12,10 @@ const Header = () => {
         <div className={`flex justify-around py-6  ${location.pathname === '/' ? `text-white bg-purple-500 mx-auto ` : `text-black  bg-white` }`}>
             <h1 className="font-bold text-3xl">Gadget Heaven</h1>
             <div className="flex items-center gap-14">
-                <NavLink>Home</NavLink>
-                <NavLink>Statistics</NavLink>
-                <NavLink to='/dashboard'>Dashboard</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/' >Home</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/statistics'>Statistics</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/dashboard'>Dashboard</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/faq'>FAQ</NavLink>
             </div>
             <div className="flex items-center gap-6">
                 <NavLink><IoCartOutline className="size-10 border-2 p-2 rounded-full text-black bg-white" /></NavLink>

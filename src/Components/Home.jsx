@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import Header from "../Header";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 
 
@@ -9,6 +10,9 @@ import { Toaster } from "react-hot-toast";
 const Home = () => {
     return (
         <section>
+        <Helmet>
+        <title>Home | Gadget Heaven</title>
+        </Helmet>   
             <div>
                 <Toaster/>
                 </div>

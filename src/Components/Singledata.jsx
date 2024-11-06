@@ -2,19 +2,25 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { addToCart , addToWishlist} from "..";
+import { useState } from "react";
 
 
 
 const Singledata = () => {
     const data = useLoaderData();
     const { product_id } = useParams();
+    const [wishlist, checkWishlist] = useState(false)
     let findData =  data.find(item => item.product_id === product_id) 
 
 
     let handleCart = (findData)=>
         addToCart(findData)
-    let handleWishlist = (findData)=>
+    let handleWishlist = (findData)=> {
         addToWishlist(findData)
+        checkWishlist(true)
+
+    }
+
 
     return (
         <div>
@@ -39,7 +45,7 @@ const Singledata = () => {
                 <p className="font-bold text-lg">Ratings {findData.rating} (Out of 5)</p>
                 <div className="flex items-center gap-3">
                 <button onClick={() => handleCart(findData)} className="flex items-center gap-2 bg-purple-600 rounded-full w-fit py-1 px-3 text-white font-medium text-lg"><IoCartOutline className="size-8" /> Add to Cart</button>
-                    <button onClick={() => handleWishlist(findData)}><FaRegHeart className="size-10 border-2 p-2 rounded-full text-black bg-white"/></button>
+                    <button disabled={wishlist} onClick={() => handleWishlist(findData)}><FaRegHeart className="size-10 border-2 p-2 rounded-full text-black bg-white"/></button>
                 </div>
 
                 
