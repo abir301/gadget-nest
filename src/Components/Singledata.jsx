@@ -45,7 +45,7 @@ const Singledata = () => {
                 <p className="font-bold text-lg">Ratings {findData.rating} (Out of 5)</p>
                 <div className="flex items-center gap-3">
                 <button onClick={() => handleCart(findData)} className="flex items-center gap-2 bg-purple-600 rounded-full w-fit py-1 px-3 text-white font-medium text-lg"><IoCartOutline className="size-8" /> Add to Cart</button>
-                    <button disabled={wishlist} onClick={() => handleWishlist(findData)}><FaRegHeart className="size-10 border-2 p-2 rounded-full text-black bg-white"/></button>
+                    <button disabled={wishlist} onClick={() => handleWishlist(findData)}><FaRegHeart className={`size-10 border-2 p-2 rounded-full bg-white ${wishlist ? ' text-gray-300 ' : 'text-black'}`}/></button>
                 </div>
 
                 

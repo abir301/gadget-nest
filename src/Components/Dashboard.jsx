@@ -104,7 +104,7 @@ const Dashboard = () => {
                 {showModal && (
                     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
                         <div className="bg-white p-8 rounded-lg shadow-lg text-center w-[400px]">
-                            <img className="py-4 mx-auto" src="/public/images/Group.png" alt="" />
+                            <img className="py-4 mx-auto" src="/images/Group.png" alt="" />
                             <h1 className="text-2xl font-bold mb-4">Payment Successful!</h1>
                             <p className="text-gray-500">Thank you for purchasing!</p>
                             <button onClick={changeRoute} className="bg-purple-600 text-white py-2 px-4 rounded-full font-medium">

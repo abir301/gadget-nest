@@ -8,7 +8,7 @@ const Headerpart = () => {
             <button className="bg-white rounded-full font-medium text-center py-2 px-4 text-purple-500 mb-[300px]">Shop Now</button>
             </div>
          <div className="border-2 border-gray-50 p-4 w-fit rounded-lg absolute bottom-[150px] left-1/2 -translate-x-1/2">
-            <img className="h-[400px] w-[800px] rounded-lg" src="/public/images/banner.jpg" alt="" />
+            <img className="h-[400px] w-[800px] rounded-lg" src="/images/banner.jpg" alt="" />
         </div>
 
         </div>
