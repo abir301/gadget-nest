@@ -10,17 +10,16 @@ import { Helmet } from "react-helmet";
 const Home = () => {
     return (
         <section>
-        <Helmet>
-        <title>Home | Gadget Heaven</title>
-        </Helmet>   
+            <Helmet>
+                <title>Home | Gadget Heaven</title>
+            </Helmet>
             <div>
-                <Toaster/>
-                </div>
-        <div className="bg-gray-100">
-            <Header></Header>
-            <Outlet></Outlet>
-
-            <Footer></Footer>
+                <Toaster />
+            </div>
+            <div className="bg-gray-100">
+                <Header></Header>
+                <Outlet></Outlet>
+                <Footer></Footer>
             </div>
 
         </section>

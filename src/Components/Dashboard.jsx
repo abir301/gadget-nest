@@ -11,12 +11,18 @@ const Dashboard = () => {
     useEffect(() => {
         const items = getCartItems()
         setCartItems(items)
+        const handle = () => setCartItems(getCartItems())
+        window.addEventListener('cart-changed', handle)
+        return () => window.removeEventListener('cart-changed', handle)
     }, [])
 
     const [wishlistItems, setWishlistItems] = useState([])
     useEffect(() => {
         const wish = getWishlistItems()
         setWishlistItems(wish)
+        const handle = () => setWishlistItems(getWishlistItems())
+        window.addEventListener('wishlist-changed', handle)
+        return () => window.removeEventListener('wishlist-changed', handle)
     }, [])
 
     let handlePurchase = () => {

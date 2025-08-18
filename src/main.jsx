@@ -8,7 +8,10 @@ import Dashboard from './Components/Dashboard.jsx';
 import Singledata from './Components/Singledata.jsx';
 import Statistics from './Components/Statistics.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
-import Faq from './Components/FAQ.jsx';
+import Faq from './Components/Faq.jsx';
+import Login from './Components/Login.jsx';
+import Signup from './Components/Signup.jsx';
+import ProtectedRoute from './Components/ProtectedRoute.jsx';
 
 
 const router = createBrowserRouter([
@@ -41,7 +44,11 @@ const router = createBrowserRouter([
 
       {
         path: '/dashboard',
-        element: <Dashboard />,
+        element: (
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        ),
       },
       
       {
@@ -52,6 +59,14 @@ const router = createBrowserRouter([
       {
         path: '/faq',
         element: <Faq/>,
+      },
+      {
+        path: '/login',
+        element: <Login/>,
+      },
+      {
+        path: '/signup',
+        element: <Signup/>,
       },
 
     ],
