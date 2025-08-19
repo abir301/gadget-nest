@@ -1,41 +1,101 @@
+import {Link} from "react-router-dom";
 
 
 const Footer = () => {
     return (
-        <footer className=" py-10 bg-white mt-10">
-            <div className=" mx-auto text-center">
-                <h1 className="text-3xl font-bold">Gadget Heaven</h1>
-                <p className="text-gray-500 font-medium mt-4">
-                    Leading the way in cutting-edge technology and innovation.
-                </p>
-                <div className="flex justify-center gap-52 mt-10">
+        <footer className="bg-purple-800 text-white mt-10">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <h2 className="text-lg font-bold">Services</h2>
-                        <div className="text-gray-500 font-medium mt-4 space-y-2">
-                            <p>Product Support</p>
-                            <p>Order Tracking</p>
-                            <p>Shipping & Delivery</p>
-                            <p>Returns</p>
+                        <div className="flex items-center space-x-2 mb-4">
+                            <div className="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">E</span>
+                            </div>
+                            <span className="text-xl font-bold">Gadget Nest</span>
                         </div>
+                        <p className="text-gray-300 text-sm">
+                            Your trusted source for high-quality electronic components and parts.
+                            Building the future, one circuit at a time.
+                        </p>
                     </div>
+
+
                     <div>
-                        <h2 className="text-lg font-bold">Company</h2>
-                        <div className="text-gray-500 font-medium mt-4 space-y-2">
-                            <p>About Us</p>
-                            <p>Careers</p>
-                            <p>Contact</p>
-                        </div>
+                        <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+                        <ul className="space-y-2">
+                            <li>
+                                <Link
+                                    to="/faq"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    About Us
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/shop"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    Shop
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/login"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    Login
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
+
                     <div>
-                        <h2 className="text-lg font-bold">Legal</h2>
-                        <div className="text-gray-500 font-medium mt-4 space-y-2">
-                            <p>Terms of Service</p>
-                            <p>Privacy Policy</p>
-                            <p>Cookie Policy</p>
-                        </div>
+                        <h3 className="text-lg font-semibold mb-4">Categories</h3>
+                        <ul className="space-y-2">
+                            <li>
+                                <Link
+                                    to="/shop/laptop"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    Laptop
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/shop/watch"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    Watch
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/shop/earphones"
+                                    className="text-gray-300 hover:text-white text-sm transition-colors"
+                                >
+                                    Earphones
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h3 className="text-lg font-semibold mb-4">Support</h3>
+                        <ul className="space-y-2">
+                            <li><span className="text-gray-300 text-sm">Email: support@gadgetnest.com</span></li>
+                            <li><span className="text-gray-300 text-sm">Phone: 12345678901</span></li>
+                            <li><span className="text-gray-300 text-sm">Hours: Sun-Thu 9AM-6PM</span></li>
+                        </ul>
                     </div>
                 </div>
+
+                <div className=" pt-4 mt-8">
+                    <p className="text-gray-300 text-sm text-center"> © 2025 Gadget Nest. All rights reserved.</p>
+                </div>
             </div>
+
         </footer>
     );
 };

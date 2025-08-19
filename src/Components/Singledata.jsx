@@ -29,7 +29,7 @@ const Singledata = () => {
             <h1 className="text-3xl font-bold text-white text-center w-[900px] mx-auto pt-10">Product Details</h1>
             <p className="text-white text-center w-[900px] mx-auto py-4 ">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
             </div>
-            <div className="flex gap-10 items-center bg-white w-fit mx-auto mt-10 p-16 rounded-lg">
+            <div className="flex gap-10 items-center bg-white w-fit mx-auto mt-10 p-16 rounded-lg drop-shadow-lg">
             <div>
                 <img className="w-96 bg-gray-100 rounded-lg" src={findData.product_image} alt= ""/>
             </div>
@@ -45,7 +45,6 @@ const Singledata = () => {
                 <p className="font-bold text-lg">Ratings {findData.rating} (Out of 5)</p>
                 <div className="flex items-center gap-3">
                 <button onClick={() => handleCart(findData)} className="flex items-center gap-2 bg-purple-600 rounded-full w-fit py-1 px-3 text-white font-medium text-lg"><IoCartOutline className="size-8" /> Add to Cart</button>
-                    <button disabled={wishlist} onClick={() => handleWishlist(findData)}><FaRegHeart className={`size-10 border-2 p-2 rounded-full bg-white ${wishlist ? ' text-gray-300 ' : 'text-black'}`}/></button>
                 </div>
 
                 

@@ -4,21 +4,21 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Components/Home.jsx';
 import Homecontent from './Components/Homecontent.jsx';
-import Dashboard from './Components/Dashboard.jsx';
 import Singledata from './Components/Singledata.jsx';
-import Statistics from './Components/Statistics.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
 import Faq from './Components/Faq.jsx';
 import Login from './Components/Login.jsx';
 import Signup from './Components/Signup.jsx';
 import ProtectedRoute from './Components/ProtectedRoute.jsx';
-
+import Cart from './Components/Cart.jsx';
+import Wishlist from './Components/Wishlist.jsx';
+import Shop from './Components/Shop.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
-    errorElement: <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
@@ -26,49 +26,55 @@ const router = createBrowserRouter([
         loader: () => fetch('/data.json'),
       },
       {
-        path: '/:category',
-        element: <Homecontent />,
+        path: '/shop/:category',
+        element: <Shop />,
         loader: () => fetch('/data.json'),
       },
       {
-        path: '/product/:product_id',
-        element:<Singledata/>,
-        loader: () => fetch('/data.json')
-      },
-      {
-        path: '/:category/product/:product_id',
-        element: <Singledata/>,
+        path: '/shop',
+        element: <Shop />,
         loader: () => fetch('/data.json'),
       },
-      
+      {
+        path: '/shop/product/:product_id',
+        element: <Singledata />,
+        loader: () => fetch('/data.json'),
+      },
+      {
+        path: '/shop/:category/product/:product_id',
+        element: <Singledata />,
+        loader: () => fetch('/data.json'),
+      },
 
       {
-        path: '/dashboard',
+        path: '/cart',
         element: (
           <ProtectedRoute>
-            <Dashboard />
+            <Cart />
           </ProtectedRoute>
         ),
       },
-      
       {
-        path: '/statistics',
-        element: <Statistics/>,
+        path: '/wishlist',
+        element: (
+          <ProtectedRoute>
+            <Wishlist />
+          </ProtectedRoute>
+        ),
       },
 
       {
         path: '/faq',
-        element: <Faq/>,
+        element: <Faq />,
       },
       {
         path: '/login',
-        element: <Login/>,
+        element: <Login />,
       },
       {
         path: '/signup',
-        element: <Signup/>,
+        element: <Signup />,
       },
-
     ],
   },
 ]);

@@ -1,338 +1,540 @@
 [
-    {
-        "product_id": "laptop001",
-        "product_title": "MacBook Pro 16-inch",
-        "product_image": "https://www.custommacbd.com/cdn/shop/files/mbp16-spaceblack-Custom-Mac-BD_1200x1200.jpg?v=1700117634",
-        "category": "Laptop",
-        "price": 2499.99,
-        "description": "High-performance laptop with Apple's M1 Pro chip.",
-        "Specification": [
-            "1. Apple M1 Pro Chip",
-            "2. 16GB RAM",
-            "3. 512GB SSD",
-            "4. 16-inch Liquid Retina XDR Display",
-            "5. Up to 21-hour Battery Life"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "laptop002",
-        "product_title": "Dell XPS 13",
-        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2023/06/Dell-XPS-13-Plus-Laptop-2023-i7-Price-in-Bangladesh-MC-Solution-BD-1200x900.webp",
-        "category": "Laptop",
-        "price": 1299.99,
-        "description": "Compact and powerful laptop with stunning InfinityEdge display.",
-        "Specification": [
-            "1. Intel Core i7 11th Gen",
-            "2. 16GB RAM",
-            "3. 512GB SSD",
-            "4. 13.4-inch FHD+ Display",
-            "5. Up to 14-hour Battery Life"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "laptop003",
-        "product_title": "Lenovo ThinkPad X1 Carbon",
-        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2022/03/Lenovo-ThinkPad-X1-Carbon-Gen-9-MC-Solution-BD-1200x900.webp",
-        "category": "Laptop",
-        "price": 1599.99,
-        "description": "Durable and lightweight business laptop with excellent battery life.",
-        "Specification": [
-            "1. Intel Core i7",
-            "2. 16GB RAM",
-            "3. 512GB SSD",
-            "4. 14-inch FHD Display",
-            "5. Up to 18-hour Battery Life"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "laptop004",
-        "product_title": "HP Spectre x360",
-        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2021/11/hp-spectre-x360-16-price-in-bangladesh-1200x900.webp",
-        "category": "Laptop",
-        "price": 1399.99,
-        "description": "Convertible laptop with vibrant display and stylus support.",
-        "Specification": [
-            "1. Intel Core i7",
-            "2. 16GB RAM",
-            "3. 512GB SSD",
-            "4. 13.5-inch OLED Display",
-            "5. Up to 17-hour Battery Life"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "laptop005",
-        "product_title": "Asus ROG Zephyrus G14",
-        "product_image": "https://dlcdnwebimgs.asus.com/gain/7767BD74-8865-4D61-96F7-94D6412E3E46",
-        "category": "Laptop",
-        "price": 1499.99,
-        "description": "Compact gaming laptop with high performance and great battery life.",
-        "Specification": [
-            "1. AMD Ryzen 9",
-            "2. 16GB RAM",
-            "3. 1TB SSD",
-            "4. 14-inch QHD Display",
-            "5. NVIDIA RTX 3060"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "watch001",
-        "product_title": "Apple Watch Series 9",
-        "product_image": "https://www.custommacbd.com/cdn/shop/files/Watch-s9-starlight-Custom-Mac-BD.jpg?v=1696082496",
-        "category": "Watch",
-        "price": 429.99,
-        "description": "Advanced health and fitness tracking smartwatch.",
-        "Specification": [
-            "1. Blood Oxygen Sensor",
-            "2. ECG and Heart Rate Monitoring",
-            "3. GPS + Cellular",
-            "4. 18-hour Battery Life",
-            "5. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "watch002",
-        "product_title": "Garmin Fenix 7",
-        "product_image": "https://ryans.com/storage/products/main/garmin-fenix-7-sapphire-solar-edition-black-dlc-11665816357.webp",
-        "category": "Watch",
-        "price": 699.99,
-        "description": "Rugged smartwatch designed for outdoor enthusiasts.",
-        "Specification": [
-            "1. GPS Navigation",
-            "2. Heart Rate and Pulse Oximeter",
-            "3. Solar Charging",
-            "4. 14-day Battery Life",
-            "5. Waterproof"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "watch003",
-        "product_title": "Fitbit Sense 2",
-        "product_image": "https://m.media-amazon.com/images/I/61c1QC4lF-L._AC_SL1500_.jpg",
-        "category": "Watch",
-        "price": 299.99,
-        "description": "Health-focused smartwatch with stress management and sleep tracking.",
-        "Specification": [
-            "1. Heart Rate Monitor",
-            "2. EDA Sensor",
-            "3. Sleep Tracking",
-            "4. 6-day Battery Life",
-            "5. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "watch004",
-        "product_title": "Samsung Galaxy Watch 6",
-        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Watch6-Gold-5232.jpg",
-        "category": "Watch",
-        "price": 399.99,
-        "description": "Smartwatch with health monitoring and seamless Android compatibility.",
-        "Specification": [
-            "1. Heart Rate & ECG",
-            "2. GPS + LTE",
-            "3. Rotating Bezel",
-            "4. 40-hour Battery Life",
-            "5. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "watch005",
-        "product_title": "Casio Pro Trek PRW-3500",
-        "product_image": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/timepiece/product/watch/P/PR/PRW/PRW-3500-1/assets/PRW-3500-1_01.png.transform/main-visual-sp/image.png",
-        "category": "Watch",
-        "price": 299.99,
-        "description": "Solar-powered outdoor watch with multiple sensors.",
-        "Specification": [
-            "1. Triple Sensor (Compass, Altimeter, Barometer)",
-            "2. Solar Power",
-            "3. 200m Water Resistant",
-            "4. Backlit Display"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "earphones001",
-        "product_title": "Apple AirPods Pro 2nd Gen",
-        "product_image": "https://executiveample.com/wp-content/uploads/2023/11/Apple-AirPods-Pro-2nd-generation-with-MagSafe-Charging-Case-USB%E2%80%91C5.webp",
-        "category": "Earphones",
-        "price": 249.99,
-        "description": "Wireless earbuds with active noise cancellation and spatial audio.",
-        "Specification": [
-            "1. Active Noise Cancellation",
-            "2. Spatial Audio",
-            "3. MagSafe Charging",
-            "4. 6-hour Battery Life",
-            "5. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "earphones002",
-        "product_title": "Jabra Elite 7 Pro",
-        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfhsSpY2Nz_KjqGxs79Yx93-y6GdGicJnzg&s",
-        "category": "Earphones",
-        "price": 199.99,
-        "description": "Wireless earbuds with active noise cancellation and customizable sound.",
-        "Specification": [
-            "1. Adjustable ANC",
-            "2. Bluetooth 5.2",
-            "3. 8-hour Battery Life",
-            "4. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "earphones003",
-        "product_title": "Bose QuietComfort Earbuds II",
-        "product_image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
-        "category": "Earphones",
-        "price": 279.99,
-        "description": "High-quality wireless earbuds with industry-leading noise cancellation.",
-        "Specification": [
-            "1. Industry-leading ANC",
-            "2. LDAC Support",
-            "3. 8-hour Battery Life",
-            "4. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "earphones004",
-        "product_title": "Beats Fit Pro",
-        "product_image": "https://www.jbhifi.com.au/cdn/shop/products/580274-Product-0-I-637776808958718058.jpg?v=1642045046",
-        "category": "Earphones",
-        "price": 229.99,
-        "description": "Compact earbuds with immersive sound and ANC.",
-        "Specification": [
-            "1. Active Noise Cancellation",
-            "2. 24-bit Hi-Fi Sound",
-            "3. 5-hour Battery Life",
-            "4. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "earphones005",
-        "product_title": "Sennheiser CX Plus",
-        "product_image": "https://gadget99.com.bd/wp-content/uploads/2022/12/Sennheiser-CX-Plus-True-Wireless-Black.jpg.webp",
-        "category": "Earphones",
-        "price": 299.99,
-        "description": "Premium earbuds with best-in-class noise cancellation.",
-        "Specification": [
-            "1. Adjustable ANC",
-            "2. 6-hour Battery Life",
-            "3. Water Resistant"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-            "product_id": "phone001",
-            "product_title": "Samsung Galaxy S23 Ultra",
-            "product_image": "https://diamu.com.bd/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-5G-Phantom-Black.jpg",
-            "category": "Phone",
-            "price": 1199.99,
-            "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
-            "Specification": [
-                "1. 6.8-inch AMOLED Display",
-                "2. 256GB Storage",
-                "3. 200MP Camera",
-                "4. 5000mAh Battery",
-                "5. 5G Connectivity"
-            ],
-            "availability": true,
-            "rating": 4.9
-        },
-        {
-            "product_id": "phone002",
-            "product_title": "iPhone 15 Pro Max",
-            "product_image": "https://www.custommacbd.com/cdn/shop/files/iphone-15-pro-blacktitanium-Custom-Mac-BD_d134ea58-0165-44d3-b1c8-2b6a13f8dbf8.jpg?v=1694689058",
-            "category": "Phone",
-            "price": 1299.99,
-            "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
-            "Specification": [
-                "1. 6.7-inch Super Retina XDR Display",
-                "2. 256GB Storage",
-                "3. Triple Camera System",
-                "4. 4300mAh Battery",
-                "5. 5G Connectivity"
-            ],
-            "availability": true,
-            "rating": 4.8
-        },
-        {
-            "product_id": "phone003",
-            "product_title": "Google Pixel 8 Pro",
-            "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
-            "category": "Phone",
-            "price": 1099.99,
-            "description": "Pixel phone with top-notch camera and AI-driven features.",
-            "Specification": [
-                "1. 6.7-inch OLED Display",
-                "2. 128GB Storage",
-                "3. Triple Rear Camera",
-                "4. 5000mAh Battery",
-                "5. 5G Connectivity"
-            ],
-            "availability": true,
-            "rating": 4.7
-        },
-        {
-            "product_id": "phone004",
-            "product_title": "OnePlus 11",
-            "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/na/oneplus-11/specs/green-img.png",
-            "category": "Phone",
-            "price": 749.99,
-            "description": "High-performance smartphone with smooth display and fast charging.",
-            "Specification": [
-                "1. 6.7-inch AMOLED Display",
-                "2. 128GB Storage",
-                "3. Triple Camera",
-                "4. 5000mAh Battery",
-                "5. 5G Connectivity"
-            ],
-            "availability": true,
-            "rating": 4.6
-        },
-        {
-            "product_id": "phone005",
-            "product_title": "Sony Xperia 1 IV",
-            "product_image": "https://images-cdn.ubuy.co.id/651441b0a7667141c30887c8-sony-xperia-1-iv-5g-smartphone.jpg",
-            "category": "Phone",
-            "price": 1399.99,
-            "description": "A premium phone with a focus on media creation.",
-            "Specification": [
-                "1. 6.5-inch 4K OLED Display",
-                "2. 256GB Storage",
-                "3. Quad Camera Setup",
-                "4. 5000mAh Battery",
-                "5. 5G Connectivity"
-            ],
-            "availability": true,
-            "rating": 4.5
-        }
-    ]
-    
-    
+  {
+    "product_id": "laptop001",
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/mbp16-spaceblack-Custom-Mac-BD_1200x1200.jpg?v=1700117634",
+    "category": "Laptop",
+    "price": 299999,
+    "description": "High-performance laptop with Apple's M1 Pro chip.",
+    "Specification": [
+      "1. Apple M1 Pro Chip",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 16-inch Liquid Retina XDR Display",
+      "5. Up to 21-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "laptop002",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://mcsolution.com.bd/wp-content/uploads/2023/06/Dell-XPS-13-Plus-Laptop-2023-i7-Price-in-Bangladesh-MC-Solution-BD-1200x900.webp",
+    "category": "Laptop",
+    "price": 155999,
+    "description": "Compact and powerful laptop with stunning InfinityEdge display.",
+    "Specification": [
+      "1. Intel Core i7 11th Gen",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 13.4-inch FHD+ Display",
+      "5. Up to 14-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "laptop003",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://mcsolution.com.bd/wp-content/uploads/2022/03/Lenovo-ThinkPad-X1-Carbon-Gen-9-MC-Solution-BD-1200x900.webp",
+    "category": "Laptop",
+    "price": 191999,
+    "description": "Durable and lightweight business laptop with excellent battery life.",
+    "Specification": [
+      "1. Intel Core i7",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 14-inch FHD Display",
+      "5. Up to 18-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "laptop004",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://mcsolution.com.bd/wp-content/uploads/2021/11/hp-spectre-x360-16-price-in-bangladesh-1200x900.webp",
+    "category": "Laptop",
+    "price": 167999,
+    "description": "Convertible laptop with vibrant display and stylus support.",
+    "Specification": [
+      "1. Intel Core i7",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 13.5-inch OLED Display",
+      "5. Up to 17-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "laptop005",
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://dlcdnwebimgs.asus.com/gain/7767BD74-8865-4D61-96F7-94D6412E3E46",
+    "category": "Laptop",
+    "price": 179999,
+    "description": "Compact gaming laptop with high performance and great battery life.",
+    "Specification": [
+      "1. AMD Ryzen 9",
+      "2. 16GB RAM",
+      "3. 1TB SSD",
+      "4. 14-inch QHD Display",
+      "5. NVIDIA RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "laptop006",
+    "product_title": "Acer Swift 5",
+    "product_image": "https://www.ryans.com/storage/products/main/acer-swift-5-sf514-55ta-77d3-11th-gen-intel-core-11609068092.webp",
+    "category": "Laptop",
+    "price": 131999,
+    "description": "Lightweight ultrabook with sleek design and all-day battery life.",
+    "Specification": [
+      "1. Intel Core i7 12th Gen",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 14-inch FHD Touch Display",
+      "5. Up to 15-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "laptop007",
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://www.ryans.com/storage/products/main/microsoft-surface-laptop-5-intel-core-i5-1235u-11675594302.webp",
+    "category": "Laptop",
+    "price": 167999,
+    "description": "Premium productivity laptop with elegant design and touchscreen.",
+    "Specification": [
+      "1. Intel Evo i7",
+      "2. 16GB RAM",
+      "3. 512GB SSD",
+      "4. 15-inch PixelSense Display",
+      "5. Dolby Vision IQ"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "laptop008",
+    "product_title": "Razer Blade 15",
+    "product_image": "https://www.ryans.com/storage/products/main/razer-blade-15-base-intel-core-i7-10750h-156-11619324269.webp",
+    "category": "Laptop",
+    "price": 299999,
+    "description": "High-performance gaming laptop with cutting-edge graphics.",
+    "Specification": [
+      "1. Intel Core i9",
+      "2. 32GB RAM",
+      "3. 1TB SSD",
+      "4. 15.6-inch QHD Display",
+      "5. NVIDIA RTX 3080"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": "watch001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Watch-s9-starlight-Custom-Mac-BD.jpg?v=1696082496",
+    "category": "Watch",
+    "price": 51599,
+    "description": "Advanced health and fitness tracking smartwatch.",
+    "Specification": [
+      "1. Blood Oxygen Sensor",
+      "2. ECG and Heart Rate Monitoring",
+      "3. GPS + Cellular",
+      "4. 18-hour Battery Life",
+      "5. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "watch002",
+    "product_title": "Garmin Fenix 7",
+    "product_image": "https://ryans.com/storage/products/main/garmin-fenix-7-sapphire-solar-edition-black-dlc-11665816357.webp",
+    "category": "Watch",
+    "price": 83999,
+    "description": "Rugged smartwatch designed for outdoor enthusiasts.",
+    "Specification": [
+      "1. GPS Navigation",
+      "2. Heart Rate and Pulse Oximeter",
+      "3. Solar Charging",
+      "4. 14-day Battery Life",
+      "5. Waterproof"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "watch003",
+    "product_title": "Fitbit Sense 2",
+    "product_image": "https://m.media-amazon.com/images/I/61c1QC4lF-L._AC_SL1500_.jpg",
+    "category": "Watch",
+    "price": 35999,
+    "description": "Health-focused smartwatch with stress management and sleep tracking.",
+    "Specification": [
+      "1. Heart Rate Monitor",
+      "2. EDA Sensor",
+      "3. Sleep Tracking",
+      "4. 6-day Battery Life",
+      "5. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "watch004",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-Watch6-Gold-5232.jpg",
+    "category": "Watch",
+    "price": 47999,
+    "description": "Smartwatch with health monitoring and seamless Android compatibility.",
+    "Specification": [
+      "1. Heart Rate & ECG",
+      "2. GPS + LTE",
+      "3. Rotating Bezel",
+      "4. 40-hour Battery Life",
+      "5. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "watch005",
+    "product_title": "Casio Pro Trek PRW-3500",
+    "product_image": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/timepiece/product/watch/P/PR/PRW/PRW-3500-1/assets/PRW-3500-1_01.png.transform/main-visual-sp/image.png",
+    "category": "Watch",
+    "price": 35999,
+    "description": "Solar-powered outdoor watch with multiple sensors.",
+    "Specification": [
+      "1. Triple Sensor (Compass, Altimeter, Barometer)",
+      "2. Solar Power",
+      "3. 200m Water Resistant",
+      "4. Backlit Display"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "watch006",
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Huawei-Watch-GT-3-46mm-Classic-Edition-8673.jpg",
+    "category": "Watch",
+    "price": 35999,
+    "description": "Stylish smartwatch with advanced health and fitness features.",
+    "Specification": [
+      "1. AMOLED Display",
+      "2. SpO2 & Heart Rate Monitoring",
+      "3. 14-day Battery Life",
+      "4. GPS Navigation",
+      "5. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "watch007",
+    "product_title": "Fossil Gen 6",
+    "product_image": "https://m.media-amazon.com/images/I/51cciK2s9dL._UF1000,1000_QL80_.jpg",
+    "category": "Watch",
+    "price": 39599,
+    "description": "Fashion smartwatch with Wear OS and customizable features.",
+    "Specification": [
+      "1. Snapdragon Wear 4100+",
+      "2. 1GB RAM",
+      "3. Google Assistant",
+      "4. 24-hour Battery Life",
+      "5. Heart Rate Monitor"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "watch008",
+    "product_title": "Suunto 9 Peak Pro",
+    "product_image": "https://www.suunto.com/globalassets/productimages/suunto-9-peak-pro/all-black/ss050807000-suunto-9-peak-pro-all-black-heroimage-800x800-2x.png",
+    "category": "Watch",
+    "price": 59999,
+    "description": "Premium outdoor smartwatch built for durability and long adventures.",
+    "Specification": [
+      "1. GPS Navigation",
+      "2. Up to 40-hour GPS Battery Life",
+      "3. 100m Water Resistant",
+      "4. Sapphire Glass",
+      "5. Heart Rate Monitor"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": "earphones001",
+    "product_title": "Apple AirPods Pro 2nd Gen",
+    "product_image": "https://executiveample.com/wp-content/uploads/2023/11/Apple-AirPods-Pro-2nd-generation-with-MagSafe-Charging-Case-USB%E2%80%91C5.webp",
+    "category": "Earphones",
+    "price": 29999,
+    "description": "Wireless earbuds with active noise cancellation and spatial audio.",
+    "Specification": [
+      "1. Active Noise Cancellation",
+      "2. Spatial Audio",
+      "3. MagSafe Charging",
+      "4. 6-hour Battery Life",
+      "5. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "earphones002",
+    "product_title": "Jabra Elite 7 Pro",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfhsSpY2Nz_KjqGxs79Yx93-y6GdGicJnzg&s",
+    "category": "Earphones",
+    "price": 23999,
+    "description": "Wireless earbuds with active noise cancellation and customizable sound.",
+    "Specification": [
+      "1. Adjustable ANC",
+      "2. Bluetooth 5.2",
+      "3. 8-hour Battery Life",
+      "4. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "earphones003",
+    "product_title": "Bose QuietComfort Earbuds II",
+    "product_image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
+    "category": "Earphones",
+    "price": 33599,
+    "description": "High-quality wireless earbuds with industry-leading noise cancellation.",
+    "Specification": [
+      "1. Industry-leading ANC",
+      "2. LDAC Support",
+      "3. 8-hour Battery Life",
+      "4. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "earphones004",
+    "product_title": "Beats Fit Pro",
+    "product_image": "https://www.jbhifi.com.au/cdn/shop/products/580274-Product-0-I-637776808958718058.jpg?v=1642045046",
+    "category": "Earphones",
+    "price": 27599,
+    "description": "Compact earbuds with immersive sound and ANC.",
+    "Specification": [
+      "1. Active Noise Cancellation",
+      "2. 24-bit Hi-Fi Sound",
+      "3. 5-hour Battery Life",
+      "4. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "earphones005",
+    "product_title": "Sennheiser CX Plus",
+    "product_image": "https://gadget99.com.bd/wp-content/uploads/2022/12/Sennheiser-CX-Plus-True-Wireless-Black.jpg.webp",
+    "category": "Earphones",
+    "price": 35999,
+    "description": "Premium earbuds with best-in-class noise cancellation.",
+    "Specification": [
+      "1. Adjustable ANC",
+      "2. 6-hour Battery Life",
+      "3. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "earphones006",
+    "product_title": "Sony WF-1000XM5",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Sony-WF-1000XM5-Wireless-Noise-Cancelling-Headphones-Black-1353.jpg",
+    "category": "Earphones",
+    "price": 35999,
+    "description": "Sony’s latest wireless earbuds with improved ANC and Hi-Res Audio.",
+    "Specification": [
+      "1. Industry-leading ANC",
+      "2. Hi-Res Wireless Audio",
+      "3. 8-hour Battery Life",
+      "4. Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "earphones007",
+    "product_title": "Anker Soundcore Liberty 4",
+    "product_image": "https://gadgetstudiobd.com/wp-content/uploads/2024/10/soundcore-liberty-4-pro-by-anker-true-wireless-earbuds-17.webp",
+    "category": "Earphones",
+    "price": 17999,
+    "description": "Affordable wireless earbuds with spatial audio and ANC.",
+    "Specification": [
+      "1. Spatial Audio Support",
+      "2. ANC Enabled",
+      "3. 9-hour Battery Life",
+      "4. Wireless Charging Case"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "earphones008",
+    "product_title": "Nothing Ear (2)",
+    "product_image": "https://cdn.shopify.com/s/files/1/0585/2479/5086/products/Ear_2_black.png?v=1688551358",
+    "category": "Earphones",
+    "price": 21599,
+    "description": "Unique transparent design earbuds with high-quality audio.",
+    "Specification": [
+      "1. Hi-Res Audio",
+      "2. Active Noise Cancellation",
+      "3. 6-hour Battery Life",
+      "4. Bluetooth 5.3"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+
+  {
+    "product_id": "phone001",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://diamu.com.bd/wp-content/uploads/2023/02/Samsung-Galaxy-S23-Ultra-5G-Phantom-Black.jpg",
+    "category": "Phone",
+    "price": 143999,
+    "description": "Samsung's flagship phone with a high-resolution camera and long battery life.",
+    "Specification": [
+      "1. 6.8-inch AMOLED Display",
+      "2. 256GB Storage",
+      "3. 200MP Camera",
+      "4. 5000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "phone002",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/iphone-15-pro-blacktitanium-Custom-Mac-BD_d134ea58-0165-44d3-b1c8-2b6a13f8dbf8.jpg?v=1694689058",
+    "category": "Phone",
+    "price": 155999,
+    "description": "Apple’s latest iPhone with titanium frame and A17 Bionic chip.",
+    "Specification": [
+      "1. 6.7-inch Super Retina XDR Display",
+      "2. 256GB Storage",
+      "3. Triple Camera System",
+      "4. 4300mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "phone003",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
+    "category": "Phone",
+    "price": 131999,
+    "description": "Pixel phone with top-notch camera and AI-driven features.",
+    "Specification": [
+      "1. 6.7-inch OLED Display",
+      "2. 128GB Storage",
+      "3. Triple Rear Camera",
+      "4. 5000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "phone004",
+    "product_title": "OnePlus 11",
+    "product_image": "https://oasis.opstatics.com/content/dam/oasis/page/2023/na/oneplus-11/specs/green-img.png",
+    "category": "Phone",
+    "price": 89999,
+    "description": "High-performance smartphone with smooth display and fast charging.",
+    "Specification": [
+      "1. 6.7-inch AMOLED Display",
+      "2. 128GB Storage",
+      "3. Triple Camera",
+      "4. 5000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "phone005",
+    "product_title": "Sony Xperia 1 IV",
+    "product_image": "https://images-cdn.ubuy.co.id/651441b0a7667141c30887c8-sony-xperia-1-iv-5g-smartphone.jpg",
+    "category": "Phone",
+    "price": 167999,
+    "description": "A premium phone with a focus on media creation.",
+    "Specification": [
+      "1. 6.5-inch 4K OLED Display",
+      "2. 256GB Storage",
+      "3. Quad Camera Setup",
+      "4. 5000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "phone006",
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/07/Mi-13-Pro.jpg",
+    "category": "Phone",
+    "price": 119999,
+    "description": "Flagship smartphone with Leica-tuned cameras and fast charging.",
+    "Specification": [
+      "1. 6.73-inch AMOLED Display",
+      "2. 256GB Storage",
+      "3. Triple Camera 50MP Setup",
+      "4. 4820mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "phone007",
+    "product_title": "Oppo Find X6 Pro",
+    "product_image": "https://diamu.com.bd/wp-content/uploads/2023/10/Oppo-Find-X6-Pro-2.jpg",
+    "category": "Phone",
+    "price": 131999,
+    "description": "Premium flagship with stunning camera performance and display.",
+    "Specification": [
+      "1. 6.82-inch AMOLED Display",
+      "2. 256GB Storage",
+      "3. Triple Hasselblad Camera",
+      "4. 5000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "phone008",
+    "product_title": "Asus ROG Phone 7",
+    "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/07/Rog-Phone-7-1.jpg",
+    "category": "Phone",
+    "price": 143999,
+    "description": "Gaming smartphone with high refresh rate display and advanced cooling.",
+    "Specification": [
+      "1. 6.78-inch AMOLED Display",
+      "2. 256GB Storage",
+      "3. Triple Camera System",
+      "4. 6000mAh Battery",
+      "5. 5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]

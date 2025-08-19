@@ -36,19 +36,12 @@ const Header = () => {
             <h1 className="font-bold text-3xl">Gadget Heaven</h1>
             <div className="flex items-center gap-14">
                 <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/' >Home</NavLink>
-                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/statistics'>Statistics</NavLink>
-                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/dashboard'>Dashboard</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/shop'>Shop</NavLink>
+                <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/cart'>Cart</NavLink>
                 <NavLink className={({ isActive }) => `font-medium ${isActive ? 'text-purple-700 underline' : ''}`} to='/faq'>FAQ</NavLink>
             </div>
             <div className="flex items-center gap-6">
-                <div className="relative">
-                    <IoCartOutline className="size-10 border-2 p-2 rounded-full text-black bg-white" />
-                    {cartCount > 0 && <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full px-2">{cartCount}</span>}
-                </div>
-                <div className="relative">
-                    <FaRegHeart className="size-10 border-2 p-2 rounded-full text-black bg-white"/>
-                    {wishCount > 0 && <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full px-2">{wishCount}</span>}
-                </div>
+
                 {user ? (
                     <button onClick={() => { logout(); navigate('/'); }} className="border-2 border-white bg-white text-purple-600 font-medium rounded-full px-4 py-1">Logout</button>
                 ) : (
